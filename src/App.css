@@ -1,0 +1,406 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.header {
+  height: 75px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(121, 121, 151);
+  padding: 5px 50px;
+}
+.link_block .link {
+  position: absolute;
+  right: 180px;
+  top: 30px;
+  width: 400px;
+ 
+}
+.link_block .link  ul li {
+  
+  list-style-type: none;
+display: inline-block;
+  margin: 0px 10px;
+}
+button{
+  background: none;
+  border: 0px;
+  
+}
+
+.homebackground {
+  background: url('./slider-bg.jpg');
+  min-height: 600px;
+  background-position: top;
+  background-size: cover;
+}
+.detail-box {
+  padding: 100px 200px;
+  width: 1000px;
+}
+.detail-box h1{
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #002c3e;
+  line-height: 70px;
+}
+ .detail-box p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+}
+.parent_block {
+  background: white;
+  position: absolute;
+  right: 380px;
+  height:auto;
+  width: 200px;
+  padding: 0px 0px;
+
+}
+.parent_block div {
+  border: 1px solid silver;
+  width: 100%;
+  padding: 10px 10px;
+} 
+.profile_control {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.profile_control .profile_block{
+  width: 460px;
+  height: 280px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 10px;
+  background:rgb(169, 169, 169); ;
+}
+.profile_control .profile_block tr{
+  margin: 10px 0px;
+}
+ .detail-box a {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.home {
+
+  height: 120vh;
+  
+}
+.home .showproduct{
+  width: 100%;
+  padding: 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.all_product{
+  margin-top: 80px;
+}
+#quality{
+  background: transparent;
+  width:40px;
+  border: 0px;
+text-align: center;   
+}
+.quality {
+  border: 1px solid black;
+  width: 70px;
+  margin: 0px 10px;
+  display: inline-block;
+}
+.quality span {
+  font-size: 18px;
+  width: 20px;
+height: 20px;
+}
+.product_list { 
+  background: white;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+padding: 10px 20px;
+ min-height: 300px;
+  margin: 20px 20px;
+}
+.button{
+  margin: 10px -10px;
+  display: flex;
+}
+.cartlist{
+  position: absolute;
+  right: 280px;
+  top: 22px;
+}
+.cartlist button{
+  padding: 10px;
+  text-align: center;
+}
+.home_link{
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+select {
+  padding: 2px 20px;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+.cart_list{
+  margin: 80px 200px;
+ padding: 10px 100px;
+}
+img {
+  border-radius: 20px;
+}
+.main_cart_block {
+  
+  margin: 20px 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main_cart_block .product_details{
+  margin-left: 10px;
+ min-width: 700px;
+ 
+  padding: 10px 10px;
+}
+.placeorder{
+  margin-top: 60px;
+  margin-left: 540px;
+}
+.placeorder button {
+  background: rgb(138, 110, 61);
+  padding: 10px 60px;
+  font-size: 18px;
+}
+#border div {
+  position: absolute;
+  right: 520px;
+  background: dimgray;
+  width: 320px;
+  height: 6px;
+}
+button:hover{
+background: transparent;
+border: 3px solid orange;
+color: black;
+}
+button{
+  transition: all 0.25s ease-in-out;
+}
+.total{
+  position: absolute;
+  right: 520px;
+margin-top: 20px;
+}
+.total span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn {
+background: orange;
+padding: 8px 34px;
+text-align: center;
+text-decoration: none;
+color: white;
+border: 0px;
+margin: 10px 10px;
+}
+.product_details {
+margin: 10px 10px;  
+}
+.product_details h3 {
+font-size: 16px;
+font-style: Regular 400;
+font-family: 'Uchen', serif;
+}
+.payment_method_parent{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #282c34;
+
+}
+.order_parent_block{
+  height: 90vh;
+  background: #282c34;
+  flex-direction: column;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_parent_block .common_order_block {
+  border: 2px solid white;
+  background-color: white;
+  width: 500px;
+  margin: 20px 0px;
+  border-radius: 15px;
+  padding: 10px 10px;
+} 
+.order_parent_block .common_order_block h2 {
+  margin: 12px 0px;
+}
+.order_parent_block .common_order_block .order_name{
+  float: right;
+}
+.order_parent_block .common_order_block img {
+  border-radius: 15px;
+}
+.payment_method_parent .payment_child{
+  width: 350px;
+  height: 300px;
+  background: white;
+  padding: 20px 20px;
+  text-align: center;
+
+}
+.payment_method_parent .payment_child form div {
+  margin: 10px 0px;
+}
+.payment_method_parent .payment_child form div input[type='submit']{
+  padding: 9px 60px;
+  border: 0px;
+  color: white;
+  background: rgb(169, 144, 144);
+  transition: all 0.25 ease-in-out;
+}
+.price {
+font-size: 18px;
+font-weight: bolder;
+}
+.router_button{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+}
+.router_button  button {
+margin: 0px 10px;
+font-size: 20px;
+padding: 10px 20px;
+border: 2px solid orange;
+}
+.router_button  .active {
+background: orange;  
+}
+.signup {
+  background: #afb9cc;
+ height: 91vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup_child {
+  padding: 20px 40px;
+}
+.signup_grand_child{
+  display: flex;
+ border-radius: 20px;
+  background-color: white;
+  min-width: 600px;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1) ;
+}
+.signup_grand_child .signup_form{
+  text-align: center;
+  padding: 20px 40px;
+}
+.signup_grand_child img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.signup_grand_child .signup_form div{
+  margin: 20px 0px;
+} 
+.signup_grand_child .signup_form div input{
+  padding: 7px 30px;
+  font-size: 14px;
+}
+button,.signup_grand_child .signup_form div input[type='submit']{
+  padding: 9px 60px;
+  border: 0px;
+  color: white;
+  background: rgb(169, 144, 144);
+  transition: all 0.25 ease-in-out;
+}
+button,.signup_grand_child .signup_form div input[type='submit']:hover {
+  border: 3px solid rgb(169, 144, 144) ;
+  color: black;
+  background: transparent;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.order h2{
+  margin-left: 90px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+.parent_order {
+display: flex;
+
+  margin: 20px 100px;
+}
+.parent_order .order_name {
+margin-left: 30px;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+@media screen and (max-width:1100px) {
+  .main_cart_block .product_details{
+    margin-left: 50px;
+  
+    padding: 10px 10px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
