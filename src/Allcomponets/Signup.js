@@ -37,7 +37,7 @@ function Signup(props) {
          
                 }
                 localStorage.setItem('userdata', JSON.stringify(object))
-                window.location.href = '/'
+                window.location.href = '/react-ecommerce-site'
             }
         })
         getusername(''); getusernumber(''); getuseradress(''); getuseremail(''); getusergender(''); getuserpassword('')

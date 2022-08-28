@@ -9,8 +9,8 @@ function Links(props) {
 
     return (
         <div className='link' >
-            <ul><li ><Link to='/signup' >Sign up</Link></li>
-                <li> <Link to='/Login'  >Login</Link></li>
+            <ul><li ><Link to='/signup'>Sign up</Link></li>
+                <li> <Link to='/Login'>Login</Link></li>
 
             </ul>
         </div>

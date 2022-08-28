@@ -35,7 +35,7 @@ function Changepassword() {
                     console.log(res.data)
                     if (res.data.flag === 1) {
                         alert('your password is successfully change')
-                        window.location.href = '/'
+                        window.location.href = '/react-ecommerce-site'
                     }
                     else {
                         alert('please check your old password')

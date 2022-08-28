@@ -30,7 +30,7 @@ function Login() {
                     usergender: res.data.userdata.user_gender
                 }
                 localStorage.setItem('userdata', JSON.stringify(object))
-                window.location.href = '/'
+                window.location.href = '/react-ecommerce-site'
 
             }
             else {
